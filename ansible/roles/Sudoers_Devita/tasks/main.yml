@@ -1,0 +1,10 @@
+---
+# tasks file for Sudoers_Devita
+
+- name: "Agregar grupo al sudoers"
+  become: true
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/Profesor
+    content: |
+      %GProfesores ALL=(ALL) NOPASSWD: ALL
+    validate: /usr/sbin/visudo -cf %s

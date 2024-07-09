@@ -1,0 +1,492 @@
+2024-07-08 22:02:38,353 p=6794 u=madevita n=ansible | - Role Alta_Usuarios_Devita was created successfully
+2024-07-08 22:02:52,116 p=6797 u=madevita n=ansible | - Role Sudoers_Devita was created successfully
+2024-07-08 22:03:18,850 p=6800 u=madevita n=ansible | - Role Instala-Tools was created successfully
+2024-07-08 22:24:03,326 p=6979 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 22:24:03,553 p=6979 u=madevita n=ansible | [WARNING]: While constructing a mapping from /home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/playbook.yml, line 6, column 9, found a duplicate dict key (name). Using last defined
+value only.
+
+2024-07-08 22:24:03,601 p=6979 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 22:24:03,909 p=6979 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 22:24:06,879 p=6979 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 22:24:06,905 p=6979 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-08 22:24:06,979 p=6979 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 22:24:06,979 p=6979 u=madevita n=ansible | 127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2024-07-08 22:25:16,972 p=7211 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 22:25:17,032 p=7211 u=madevita n=ansible | [WARNING]: While constructing a mapping from /home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/playbook.yml, line 6, column 9, found a duplicate dict key (name). Using last defined
+value only.
+
+2024-07-08 22:25:17,060 p=7211 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 22:25:17,142 p=7211 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 22:25:19,399 p=7211 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 22:25:19,442 p=7211 u=madevita n=ansible | ERROR! the field 'hosts' is required but was not set
+2024-07-08 23:03:17,080 p=7855 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:03:17,206 p=7855 u=madevita n=ansible | [WARNING]: While constructing a mapping from /home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/playbook.yml, line 6, column 9, found a duplicate dict key (name). Using last defined
+value only.
+
+2024-07-08 23:03:17,280 p=7855 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:03:17,548 p=7855 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:03:20,649 p=7855 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:03:20,663 p=7855 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:03:20,824 p=7855 u=madevita n=ansible | ERROR! the field 'hosts' is required but was not set
+2024-07-08 23:05:11,063 p=8175 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:05:11,274 p=8175 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:05:11,495 p=8175 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:05:15,434 p=8175 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:05:15,614 p=8175 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:05:15,870 p=8175 u=madevita n=ansible | ERROR! the field 'hosts' is required but was not set
+2024-07-08 23:06:03,036 p=8506 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:06:03,218 p=8506 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:06:03,484 p=8506 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:06:07,650 p=8506 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:06:07,807 p=8506 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:06:08,002 p=8506 u=madevita n=ansible | ERROR! the field 'hosts' is required but was not set
+2024-07-08 23:09:30,730 p=8789 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:09:30,899 p=8789 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:09:31,129 p=8789 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:09:35,157 p=8789 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:09:35,169 p=8789 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:09:35,329 p=8789 u=madevita n=ansible | ERROR! the field 'hosts' is required but was not set
+2024-07-08 23:11:38,075 p=9081 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:11:38,208 p=9081 u=madevita n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/playbook.yml': line 4, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+tasks:
+^ here
+
+2024-07-08 23:18:18,599 p=9103 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:18:18,910 p=9103 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:18:18,986 p=9103 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:18:23,331 p=9103 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:18:23,558 p=9103 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:18:23,634 p=9103 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:18:23,807 p=9103 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:18:23,864 p=9103 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:18:23,911 p=9103 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:18:24,049 p=9103 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:18:24,286 p=9103 u=madevita n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2024-07-08 23:18:24,288 p=9103 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Could not find or access 'template_uno.j2'\nSearched in:\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/tasks/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/tasks/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/template_uno.j2 on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2024-07-08 23:18:24,509 p=9103 u=madevita n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2024-07-08 23:18:24,509 p=9103 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Could not find or access 'template_uno.j2'\nSearched in:\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/tasks/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/2PRecuperatorio/tasks/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/templates/template_uno.j2\n\t/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/template_uno.j2 on the Ansible Controller.\nIf you are using a module and expect the file to exist on the remote, see the remote_src option"}
+2024-07-08 23:18:24,512 p=9103 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:18:24,512 p=9103 u=madevita n=ansible | 127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:18:24,512 p=9103 u=madevita n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:24:51,132 p=9517 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:24:51,275 p=9517 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:24:51,315 p=9517 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:24:54,374 p=9517 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:24:54,440 p=9517 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:24:54,493 p=9517 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:24:54,565 p=9517 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:24:54,591 p=9517 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:24:54,602 p=9517 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:24:54,618 p=9517 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:24:55,717 p=9517 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "checksum": "ba357ffd3a686be0bcc6beec7650ec7e2c3df4c5", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-08 23:24:55,957 p=9517 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"changed": false, "checksum": "ba357ffd3a686be0bcc6beec7650ec7e2c3df4c5", "msg": "Destination directory /tmp/alumno does not exist"}
+2024-07-08 23:24:55,959 p=9517 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:24:55,959 p=9517 u=madevita n=ansible | 127.0.0.1                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:24:55,959 p=9517 u=madevita n=ansible | localhost                  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:25:37,768 p=10034 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:25:37,908 p=10034 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:25:37,955 p=10034 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:25:40,894 p=10034 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:25:41,034 p=10034 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:25:41,078 p=10034 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:25:41,164 p=10034 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:25:41,187 p=10034 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:25:41,205 p=10034 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:25:41,218 p=10034 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:25:42,320 p=10034 u=madevita n=ansible | changed: [localhost]
+2024-07-08 23:25:42,585 p=10034 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:25:42,613 p=10034 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:25:42,745 p=10034 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:25:47,394 p=10034 u=madevita n=ansible | failed: [localhost] (item=script) => {"ansible_loop_var": "item", "changed": false, "failures": ["No package script available."], "item": "script", "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2024-07-08 23:25:47,445 p=10034 u=madevita n=ansible | failed: [127.0.0.1] (item=script) => {"ansible_loop_var": "item", "changed": false, "failures": ["No package script available."], "item": "script", "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2024-07-08 23:25:50,824 p=10034 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:25:51,074 p=10034 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:25:53,349 p=10034 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:25:54,950 p=10034 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:26:13,557 p=10034 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:26:16,454 p=10034 u=madevita n=ansible | changed: [localhost] => (item=speedtest-cli)
+2024-07-08 23:26:31,093 p=10034 u=madevita n=ansible | changed: [127.0.0.1] => (item=htop)
+2024-07-08 23:26:31,852 p=10034 u=madevita n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: FileNotFoundError: [Errno 2] No such file or directory: '/var/cache/dnf/fedora-6c3a9e5977a00788/packages/htop-3.3.0-3.fc40.x86_64.rpm'
+2024-07-08 23:26:31,852 p=10034 u=madevita n=ansible | failed: [localhost] (item=htop) => {"ansible_loop_var": "item", "changed": false, "item": "htop", "module_stderr": "Traceback (most recent call last):\n  File \"/home/madevita/.ansible/tmp/ansible-tmp-1720491976.4657621-10542-274630625757482/AnsiballZ_dnf.py\", line 107, in <module>\n    _ansiballz_main()\n  File \"/home/madevita/.ansible/tmp/ansible-tmp-1720491976.4657621-10542-274630625757482/AnsiballZ_dnf.py\", line 99, in _ansiballz_main\n    invoke_module(zipped_mod, temp_path, ANSIBALLZ_PARAMS)\n  File \"/home/madevita/.ansible/tmp/ansible-tmp-1720491976.4657621-10542-274630625757482/AnsiballZ_dnf.py\", line 47, in invoke_module\n    runpy.run_module(mod_name='ansible.modules.dnf', init_globals=dict(_module_fqn='ansible.modules.dnf', _modlib_path=modlib_path),\n  File \"<frozen runpy>\", line 226, in run_module\n  File \"<frozen runpy>\", line 98, in _run_module_code\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/tmp/ansible_ansible.legacy.dnf_payload_n1szptnu/ansible_ansible.legacy.dnf_payload.zip/ansible/modules/dnf.py\", line 1365, in <module>\n  File \"/tmp/ansible_ansible.legacy.dnf_payload_n1szptnu/ansible_ansible.legacy.dnf_payload.zip/ansible/modules/dnf.py\", line 1354, in main\n  File \"/tmp/ansible_ansible.legacy.dnf_payload_n1szptnu/ansible_ansible.legacy.dnf_payload.zip/ansible/modules/dnf.py\", line 1325, in run\n  File \"/tmp/ansible_ansible.legacy.dnf_payload_n1szptnu/ansible_ansible.legacy.dnf_payload.zip/ansible/modules/dnf.py\", line 1244, in ensure\n  File \"/usr/lib/python3.12/site-packages/dnf/base.py\", line 979, in do_transaction\n    self.transaction._populate_rpm_ts(self._ts)\n  File \"/usr/lib/python3.12/site-packages/dnf/db/group.py\", line 328, in _populate_rpm_ts\n    hdr = tsi.pkg._header\n          ^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/site-packages/dnf/package.py\", line 110, in _header\n    return dnf.rpm._header(self.localPkg())\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/site-packages/dnf/rpm/__init__.py\", line 76, in _header\n    with open(path) as package:\n         ^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/var/cache/dnf/fedora-6c3a9e5977a00788/packages/htop-3.3.0-3.fc40.x86_64.rpm'\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}
+2024-07-08 23:26:31,856 p=10034 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:26:31,857 p=10034 u=madevita n=ansible | 127.0.0.1                  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:26:31,857 p=10034 u=madevita n=ansible | localhost                  : ok=3    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:28:27,052 p=11311 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:28:27,193 p=11311 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:28:27,224 p=11311 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:28:30,138 p=11311 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:28:30,187 p=11311 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:28:30,233 p=11311 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:28:30,312 p=11311 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:28:30,336 p=11311 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:28:30,351 p=11311 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:28:30,365 p=11311 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:28:31,519 p=11311 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:28:31,700 p=11311 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:28:31,727 p=11311 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-08 23:28:31,819 p=11311 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-08 23:28:32,835 p=11311 u=madevita n=ansible | changed: [localhost]
+2024-07-08 23:28:33,138 p=11311 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:28:33,165 p=11311 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:28:33,265 p=11311 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:28:35,738 p=11311 u=madevita n=ansible | failed: [localhost] (item=script) => {"ansible_loop_var": "item", "changed": false, "failures": ["No package script available."], "item": "script", "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2024-07-08 23:28:37,693 p=11311 u=madevita n=ansible | failed: [127.0.0.1] (item=script) => {"ansible_loop_var": "item", "changed": false, "failures": ["No package script available."], "item": "script", "msg": "Failed to install some of the specified packages", "rc": 1, "results": []}
+2024-07-08 23:28:39,296 p=11311 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:28:40,318 p=11311 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:28:41,752 p=11311 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:28:42,979 p=11311 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:28:44,725 p=11311 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-08 23:28:45,542 p=11311 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:28:47,116 p=11311 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-08 23:28:49,121 p=11311 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-08 23:28:49,125 p=11311 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:28:49,126 p=11311 u=madevita n=ansible | 127.0.0.1                  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:28:49,126 p=11311 u=madevita n=ansible | localhost                  : ok=4    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:30:20,607 p=12738 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:30:20,765 p=12738 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:30:20,805 p=12738 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:30:23,644 p=12738 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:30:23,657 p=12738 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:30:23,696 p=12738 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:30:23,768 p=12738 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:30:23,791 p=12738 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:30:23,803 p=12738 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:30:23,818 p=12738 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:30:24,900 p=12738 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:30:25,058 p=12738 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:30:25,085 p=12738 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-08 23:30:25,161 p=12738 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-08 23:30:26,028 p=12738 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:30:26,368 p=12738 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:30:26,393 p=12738 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:30:26,476 p=12738 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:30:28,947 p=12738 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:30:30,288 p=12738 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:30:34,459 p=12738 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:30:34,832 p=12738 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:30:37,413 p=12738 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-08 23:30:38,919 p=12738 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:30:40,123 p=12738 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-08 23:30:41,437 p=12738 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-08 23:30:41,463 p=12738 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-08 23:30:41,568 p=12738 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Agregando group Primario del usuario] ***************************************************************************************************************************
+2024-07-08 23:30:41,608 p=12738 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "'LISTA_GRUPOS' is undefined. 'LISTA_GRUPOS' is undefined"}
+2024-07-08 23:30:41,622 p=12738 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "'LISTA_GRUPOS' is undefined. 'LISTA_GRUPOS' is undefined"}
+2024-07-08 23:30:41,625 p=12738 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:30:41,626 p=12738 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:30:41,626 p=12738 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:33:28,488 p=14023 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:33:28,621 p=14023 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:33:28,653 p=14023 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:33:31,719 p=14023 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:33:31,989 p=14023 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:33:32,027 p=14023 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:33:32,108 p=14023 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:33:32,135 p=14023 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:33:32,150 p=14023 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:33:32,165 p=14023 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:33:33,293 p=14023 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:33:33,469 p=14023 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:33:33,494 p=14023 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-08 23:33:33,571 p=14023 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-08 23:33:34,492 p=14023 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:33:34,926 p=14023 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:33:34,953 p=14023 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:33:35,038 p=14023 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:33:37,971 p=14023 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:33:39,071 p=14023 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:33:40,521 p=14023 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:33:42,011 p=14023 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:33:43,051 p=14023 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-08 23:33:44,550 p=14023 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:33:46,312 p=14023 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-08 23:33:48,354 p=14023 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-08 23:33:48,381 p=14023 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-08 23:33:48,481 p=14023 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Agregando group Primario del usuario] ***************************************************************************************************************************
+2024-07-08 23:33:48,507 p=14023 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:33:48,527 p=14023 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:33:48,529 p=14023 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:33:48,530 p=14023 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:33:48,530 p=14023 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:43:02,113 p=15363 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:43:02,254 p=15363 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:43:02,286 p=15363 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:43:05,428 p=15363 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:43:05,478 p=15363 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:43:05,527 p=15363 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:43:05,614 p=15363 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:43:05,641 p=15363 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:43:05,653 p=15363 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:43:05,665 p=15363 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:43:06,788 p=15363 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:43:06,982 p=15363 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:43:07,007 p=15363 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-08 23:43:07,086 p=15363 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-08 23:43:08,011 p=15363 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:43:08,341 p=15363 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:43:08,368 p=15363 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:43:08,464 p=15363 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:43:10,915 p=15363 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:43:12,484 p=15363 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:43:14,313 p=15363 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:43:15,934 p=15363 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:43:17,811 p=15363 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-08 23:43:19,523 p=15363 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:43:21,064 p=15363 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-08 23:43:23,205 p=15363 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-08 23:43:23,231 p=15363 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-08 23:43:23,327 p=15363 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Agregando group Primario del usuario] ***************************************************************************************************************************
+2024-07-08 23:43:23,354 p=15363 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'LISTA_GRUPOS'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'LISTA_GRUPOS'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:43:23,375 p=15363 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'LISTA_GRUPOS'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'LISTA_GRUPOS'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:43:23,377 p=15363 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:43:23,377 p=15363 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:43:23,377 p=15363 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:44:56,434 p=16624 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-08 23:44:56,558 p=16624 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-08 23:44:56,591 p=16624 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-08 23:44:59,375 p=16624 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:44:59,456 p=16624 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:44:59,492 p=16624 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-08 23:44:59,568 p=16624 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-08 23:44:59,599 p=16624 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:44:59,617 p=16624 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-08 23:44:59,628 p=16624 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-08 23:45:00,805 p=16624 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:45:01,008 p=16624 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:45:01,035 p=16624 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-08 23:45:01,130 p=16624 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-08 23:45:02,016 p=16624 u=madevita n=ansible | ok: [localhost]
+2024-07-08 23:45:02,367 p=16624 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-08 23:45:02,390 p=16624 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-08 23:45:02,485 p=16624 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-08 23:45:05,020 p=16624 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-08 23:45:06,369 p=16624 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-08 23:45:08,338 p=16624 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-08 23:45:10,003 p=16624 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-08 23:45:11,628 p=16624 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-08 23:45:13,552 p=16624 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-08 23:45:15,067 p=16624 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-08 23:45:16,179 p=16624 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-08 23:45:16,202 p=16624 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-08 23:45:16,286 p=16624 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Agregando group Primario del usuario] ***************************************************************************************************************************
+2024-07-08 23:45:16,315 p=16624 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:45:16,335 p=16624 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Agregando group Primario del usuario \"\n  ^ here\n"}
+2024-07-08 23:45:16,337 p=16624 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-08 23:45:16,337 p=16624 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-08 23:45:16,337 p=16624 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:02:39,806 p=18056 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-09 00:02:39,933 p=18056 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-09 00:02:39,964 p=18056 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-09 00:02:42,908 p=18056 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:02:42,956 p=18056 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:02:43,012 p=18056 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-09 00:02:43,077 p=18056 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-09 00:02:43,110 p=18056 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:02:43,125 p=18056 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:02:43,140 p=18056 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-09 00:02:44,256 p=18056 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:02:44,404 p=18056 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:02:44,429 p=18056 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-09 00:02:44,504 p=18056 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-09 00:02:45,372 p=18056 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:02:45,753 p=18056 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:02:45,778 p=18056 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-09 00:02:45,881 p=18056 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-09 00:02:48,610 p=18056 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-09 00:02:49,805 p=18056 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-09 00:02:51,040 p=18056 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-09 00:02:52,662 p=18056 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-09 00:02:54,540 p=18056 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-09 00:02:56,129 p=18056 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-09 00:02:57,876 p=18056 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-09 00:02:59,678 p=18056 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-09 00:02:59,701 p=18056 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-09 00:02:59,787 p=18056 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Alta y/o Actualizacion del usuario] *****************************************************************************************************************************
+2024-07-09 00:02:59,811 p=18056 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Alta y/o Actualizacion del usuario\"\n  ^ here\n"}
+2024-07-09 00:02:59,831 p=18056 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Alta y/o Actualizacion del usuario\"\n  ^ here\n"}
+2024-07-09 00:02:59,835 p=18056 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-09 00:02:59,835 p=18056 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:02:59,836 p=18056 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:03:28,257 p=19312 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-09 00:03:28,389 p=19312 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-09 00:03:28,423 p=19312 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-09 00:03:31,434 p=19312 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:03:31,439 p=19312 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:03:31,489 p=19312 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-09 00:03:31,567 p=19312 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-09 00:03:31,590 p=19312 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:03:31,606 p=19312 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:03:31,620 p=19312 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-09 00:03:32,727 p=19312 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:03:32,893 p=19312 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:03:32,921 p=19312 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-09 00:03:33,011 p=19312 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-09 00:03:33,872 p=19312 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:03:34,261 p=19312 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:03:34,282 p=19312 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-09 00:03:34,371 p=19312 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-09 00:03:36,989 p=19312 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-09 00:03:38,235 p=19312 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-09 00:03:39,312 p=19312 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-09 00:03:41,990 p=19312 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-09 00:03:45,148 p=19312 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-09 00:03:45,283 p=19312 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-09 00:03:47,258 p=19312 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-09 00:03:48,710 p=19312 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-09 00:03:48,735 p=19312 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-09 00:03:48,817 p=19312 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Alta y/o Actualizacion del usuario] *****************************************************************************************************************************
+2024-07-09 00:03:49,692 p=19312 u=madevita n=ansible | [WARNING]: 'append' is set, but no 'groups' are specified. Use 'groups' for appending new groups.This will change to an error in Ansible 2.14.
+
+2024-07-09 00:03:49,694 p=19312 u=madevita n=ansible | failed: [localhost] (item=Profesor) => {"ansible_loop_var": "item", "changed": false, "item": "Profesor", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:03:49,871 p=19312 u=madevita n=ansible | failed: [127.0.0.1] (item=Profesor) => {"ansible_loop_var": "item", "changed": false, "item": "Profesor", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:03:50,218 p=19312 u=madevita n=ansible | failed: [localhost] (item=Alumno) => {"ansible_loop_var": "item", "changed": false, "item": "Alumno", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:03:50,655 p=19312 u=madevita n=ansible | failed: [127.0.0.1] (item=Alumno) => {"ansible_loop_var": "item", "changed": false, "item": "Alumno", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:03:50,658 p=19312 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-09 00:03:50,658 p=19312 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:03:50,659 p=19312 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:04:46,860 p=20838 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-09 00:04:46,986 p=20838 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-09 00:04:47,018 p=20838 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-09 00:04:49,956 p=20838 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:04:49,972 p=20838 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:04:50,012 p=20838 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-09 00:04:50,085 p=20838 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-09 00:04:50,109 p=20838 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:04:50,121 p=20838 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:04:50,134 p=20838 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-09 00:04:51,243 p=20838 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:04:51,432 p=20838 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:04:51,459 p=20838 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-09 00:04:51,558 p=20838 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-09 00:04:52,426 p=20838 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:04:52,782 p=20838 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:04:52,803 p=20838 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-09 00:04:52,889 p=20838 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-09 00:04:55,508 p=20838 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-09 00:04:56,816 p=20838 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-09 00:04:57,930 p=20838 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-09 00:05:00,046 p=20838 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-09 00:05:01,590 p=20838 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-09 00:05:02,954 p=20838 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-09 00:05:04,850 p=20838 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-09 00:05:06,377 p=20838 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-09 00:05:06,405 p=20838 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-09 00:05:06,508 p=20838 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Alta y/o Actualizacion del usuario] *****************************************************************************************************************************
+2024-07-09 00:05:06,540 p=20838 u=madevita n=ansible | fatal: [127.0.0.1]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Alta y/o Actualizacion del usuario\"\n  ^ here\n"}
+2024-07-09 00:05:06,556 p=20838 u=madevita n=ansible | fatal: [localhost]: FAILED! => {"msg": "The task includes an option with an undefined variable. The error was: 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'. 'ansible.utils.unsafe_proxy.AnsibleUnsafeText object' has no attribute 'USERNAME'\n\nThe error appears to be in '/home/madevita/UTN-FRA_SO_Examenes/202406_Recu/ansible/roles/Alta_Usuarios_Devita/tasks/main.yml': line 4, column 3, but may\nbe elsewhere in the file depending on the exact syntax problem.\n\nThe offending line appears to be:\n\n\n- name: \"Alta y/o Actualizacion del usuario\"\n  ^ here\n"}
+2024-07-09 00:05:06,558 p=20838 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-09 00:05:06,558 p=20838 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:05:06,558 p=20838 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:05:45,582 p=22081 u=madevita n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found localhost was 127.0.0.1
+
+2024-07-09 00:05:45,726 p=22081 u=madevita n=ansible | PLAY [all] ***********************************************************************************************************************************************************************************
+2024-07-09 00:05:45,760 p=22081 u=madevita n=ansible | TASK [Gathering Facts] ***********************************************************************************************************************************************************************
+2024-07-09 00:05:49,088 p=22081 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:05:49,090 p=22081 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:05:49,137 p=22081 u=madevita n=ansible | TASK [include_role : 2PRecuperatorio] ********************************************************************************************************************************************************
+2024-07-09 00:05:49,215 p=22081 u=madevita n=ansible | TASK [2PRecuperatorio : Rol: 2PRecuperatorio] ************************************************************************************************************************************************
+2024-07-09 00:05:49,239 p=22081 u=madevita n=ansible | ok: [127.0.0.1] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:05:49,251 p=22081 u=madevita n=ansible | ok: [localhost] => {
+    "msg": "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+}
+2024-07-09 00:05:49,263 p=22081 u=madevita n=ansible | TASK [2PRecuperatorio : Dejar archivo] *******************************************************************************************************************************************************
+2024-07-09 00:05:50,424 p=22081 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:05:50,603 p=22081 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:05:50,626 p=22081 u=madevita n=ansible | TASK [include_role : Sudoers_Devita] *********************************************************************************************************************************************************
+2024-07-09 00:05:50,702 p=22081 u=madevita n=ansible | TASK [Sudoers_Devita : Agregar grupo al sudoers] *********************************************************************************************************************************************
+2024-07-09 00:05:51,574 p=22081 u=madevita n=ansible | ok: [localhost]
+2024-07-09 00:05:51,920 p=22081 u=madevita n=ansible | ok: [127.0.0.1]
+2024-07-09 00:05:51,945 p=22081 u=madevita n=ansible | TASK [include_role : Instala-Tools] **********************************************************************************************************************************************************
+2024-07-09 00:05:52,033 p=22081 u=madevita n=ansible | TASK [Instala-Tools : Instalar paquetes basicos] *********************************************************************************************************************************************
+2024-07-09 00:05:54,529 p=22081 u=madevita n=ansible | ok: [localhost] => (item=tmux)
+2024-07-09 00:05:56,423 p=22081 u=madevita n=ansible | ok: [127.0.0.1] => (item=tmux)
+2024-07-09 00:05:58,038 p=22081 u=madevita n=ansible | ok: [localhost] => (item=tree)
+2024-07-09 00:05:59,972 p=22081 u=madevita n=ansible | ok: [127.0.0.1] => (item=tree)
+2024-07-09 00:06:02,157 p=22081 u=madevita n=ansible | ok: [localhost] => (item=speedtest-cli)
+2024-07-09 00:06:02,415 p=22081 u=madevita n=ansible | ok: [127.0.0.1] => (item=speedtest-cli)
+2024-07-09 00:06:04,427 p=22081 u=madevita n=ansible | ok: [localhost] => (item=htop)
+2024-07-09 00:06:05,936 p=22081 u=madevita n=ansible | ok: [127.0.0.1] => (item=htop)
+2024-07-09 00:06:05,960 p=22081 u=madevita n=ansible | TASK [include_role : Alta_Usuarios_Devita] ***************************************************************************************************************************************************
+2024-07-09 00:06:06,049 p=22081 u=madevita n=ansible | TASK [Alta_Usuarios_Devita : Alta y/o Actualizacion del usuario] *****************************************************************************************************************************
+2024-07-09 00:06:06,841 p=22081 u=madevita n=ansible | failed: [localhost] (item=Profesor) => {"ansible_loop_var": "item", "changed": false, "item": "Profesor", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:06:07,085 p=22081 u=madevita n=ansible | failed: [127.0.0.1] (item=Profesor) => {"ansible_loop_var": "item", "changed": false, "item": "Profesor", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:06:07,424 p=22081 u=madevita n=ansible | failed: [localhost] (item=Alumno) => {"ansible_loop_var": "item", "changed": false, "item": "Alumno", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:06:07,882 p=22081 u=madevita n=ansible | failed: [127.0.0.1] (item=Alumno) => {"ansible_loop_var": "item", "changed": false, "item": "Alumno", "msg": "useradd: invalid user name '['Profesor', 'Alumno']': use --badname to ignore\n", "name": "['Profesor', 'Alumno']", "rc": 3}
+2024-07-09 00:06:07,885 p=22081 u=madevita n=ansible | PLAY RECAP ***********************************************************************************************************************************************************************************
+2024-07-09 00:06:07,885 p=22081 u=madevita n=ansible | 127.0.0.1                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-07-09 00:06:07,885 p=22081 u=madevita n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   

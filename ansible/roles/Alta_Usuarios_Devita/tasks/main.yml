@@ -1,0 +1,18 @@
+---
+# tasks file for Alta_Usuarios_Devita
+
+- name: "Alta y/o Actualizacion del usuario"
+  become: yes
+  user:
+    name: "{{ USERNAME }}"
+    state: present
+  with_items: "{{ USERNAME  }}"
+
+- name: "Agregando group Primario del usuario "
+  become: yes
+  group:
+    name: "{{ USERNAME }}"
+    state: present
+  with_items: "{{ LISTA_GRUPOS }}"
+
+  

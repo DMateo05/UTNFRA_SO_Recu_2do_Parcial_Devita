@@ -1,0 +1,8 @@
+---
+# vars file for Alta_Usuarios_Devita
+LISTA_GRUPOS:
+  - GProfesores
+  - GAlumnos
+USERNAME:
+  - Profesor
+  - Alumno

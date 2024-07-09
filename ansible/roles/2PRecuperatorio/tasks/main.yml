@@ -1,0 +1,11 @@
+---
+# tasks file for 2PRecuperatorio
+
+ - name: "Rol: 2PRecuperatorio"
+   debug:
+     msg: "Inicio de tareas dentro del Rol: 2PRecuperatorio"
+
+ - name: "Dejar archivo"
+   template:
+     src: template_uno.j2
+     dest: /tmp/alumno/datos.txt
